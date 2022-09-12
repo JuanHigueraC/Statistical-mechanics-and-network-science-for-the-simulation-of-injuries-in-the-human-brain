@@ -12,6 +12,6 @@ This project was realized by
 **Felipe R Amador G**
 
 
-This project was presented for the course **Introduction to theoretical research** of the National University of Colombia. 
+This project was presented for the course **Introduction To Theoretical Research** of the National University of Colombia. 
 
 We simulate human functional connectivity from structural connectivity and the generalized ising model. This simulation was used to quantify the change in correlations and diversity of dynamic states (measured by entropy) of an injured brain relative to a healthy one.
