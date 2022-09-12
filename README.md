@@ -7,7 +7,7 @@ This project was realized by
 
 **Kevin N Ramos G**
 
-** Cristian D Salazar G**
+**Cristian D Salazar G**
 
 **Felipe R Amador G**
 
