@@ -37,7 +37,12 @@ The structural edges of the anatomical network was defined as the number of nerv
 ![image](https://github.com/JuanHigueraC/Statistical-mechanics-and-network-science-for-the-simulation-of-injuries-in-the-human-brain/blob/8272ed1223cd5a76251eeaf03fa0d49e19be387c/Images/tractografia.PNG)
 
 **Figure 2. Nervious Tracts infered from difusion magnetic resonance data and deterministic tractography algorithm**
+
+This 
+
 # Functional Edges
+
+Functional edges are defined as pearson linear correlation coefficient between metabolic activity time series of the brain regions.
 
 ## Maximum entropy models of the brain states (Generalized Ising Model)
 
