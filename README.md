@@ -34,7 +34,7 @@ The human brain has on the order of $10^11$ neurons and $10^11 \times 10^5$ conn
 # Structural Edges
 The structural edges of the anatomical network was defined as the number of nervious tracts, number infered from difusion magnetic resonance data and deterministic tractography algorithm*.
 
-![image](https://github.com/JuanHigueraC/Statistical-mechanics-and-network-science-for-the-simulation-of-injuries-in-the-human-brain/blob/8272ed1223cd5a76251eeaf03fa0d49e19be387c/Images/tractografia.PNG)
+![image](https://github.com/JuanHigueraC/Statistical-mechanics-and-network-science-for-the-simulation-of-injuries-in-the-human-brain/blob/083983ed2c104290ca1ca5c9cad892a3e4828559/Images/parcellation.PNG)
 
 **Figure 2. Nervious Tracts infered from difusion magnetic resonance data and deterministic tractography algorithm**
 # Functional Edges
