@@ -14,22 +14,30 @@ This project was realized by
 
 This project was presented for the course **Introduction To Theoretical Research** of the National University of Colombia. 
 
-## Highlights
 
-Using diffusion, structural and functional magnetic resonance data from the HCP data set for health young adult, we build network models in which nodes are brain regions and edges are anatomical connections and correlations in metabolic activity. 
+In this work we tried to predict the impact in the whole brain activity of injuries in particular brain regions with specifical integration/segregation properties using a statistical mechanical model.
 
-We simulated correlation in metabolic activity with a statistical mechanics model of discrete states on a network, in which the interactions between nodes are linear and their intrinsic activity is simulated as stochastic activity, which is modeled as coming from a thermal bath; this results in ising-like models, in other words the Generalized Ising Model. The best fit of this model was given at the edge of criticality.
+## Abstract 
+Using structural, diffusion, and functional MRI data from the HCP dataset for healthy young adults, we build network models in which nodes are brain regions and edges are anatomical connections or correlates in metabolic activity. We then simulated the correlation in metabolic activity using the Generalized Ising Model (GIM) in the anatomical network, this model presented the best fit with the metabolic activity of the healthy resting human brain in the maximum entropy regime, at the edge of the criticality. Subsequently, the anatomical network was modified with the aim of simulating a local brain injury, the impact of these local injuries on global activity was quantified by means of entropy (in this case a measure of the computational power of the network) and the difference with the empirical brain health metabolic correlations. We found that of the measures used, geodesic betweenness centrality and degree were the best predictors of the impact of local injury on simulated whole brain activity, however how whole brain activity is affected is dependent on topological properties. of the local injured region.
 
-It was quantified integration and segregation with centrality and clustering topological measures, then we selected six regions for attack.
+## Building Brain Networks
+For the construction of brain networks its necessary define what entities are the nodes and what are the edges, this translating from the real brain to the mathematical network model is presented in this section.
 
+# Nodes
+Human brain have a mean of $10^5$   uctural Edges
 
-## Abstract
-Using diffusion, structural and functional magnetic resonance data from the HCP data set for health young adult, we build network models in which nodes are brain regions and edges are anatomical connections and correlations in metabolic activity. Then we simulated correlation in metabolic activity with a statistical mechanics model of discrete states on the anatomical network, in which the interactions between nodes are proportional to the number of anatomical connections and their intrinsic activity is simulated as stochastic activity, which is modeled as coming from a thermal bath; this results in ising-like models, in other words the Generalized Ising Model. The best fit of this model with the metabolic activity of health resting human brain was given at the edge of criticality.
+# Functional Edges
 
-## Methodology
+## Maximum entropy models of the brain states (Generalized Ising Model)
+
+# Model
+
+# Entropy and maximum similarity with the empirical correlations
 
 ## Results
 
-##Conclusions
+# Simulated correlations 
 
-##References
+# Conclusions
+
+## References
