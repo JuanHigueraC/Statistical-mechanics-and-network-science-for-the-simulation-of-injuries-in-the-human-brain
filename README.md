@@ -67,13 +67,27 @@ The interaction rule between nodes, and the associate energy for each activation
 
 $$H = \frac{1}{2}\Theta \sum_i S_i - \frac{1}{2}W \sum_{i,j}C_{i,j}S_iS_j$$
 
-where $S_i$ are the activation state of the node i, $\Theta$ the energy cost associate with the activation of the brain region, W the global coupling of the network and T the parameter that modulate the magnitude of thermal noise.
+where $S_i$ are the activation state of the node i, $\Theta$ the energy cost associate with the activation of the brain region, **W** the global coupling of the network and **T** the parameter that modulate the magnitude of thermal noise.
 
 Once established a hamiltonian, we use de Maximum Entropy Principle to infer probability of ocurrency of the brain states, this resulted in the next expression
 
 $$P_i = \frac{e^{-\frac{H_i}{T}}}{Z}$$
 
+with this, the ensemble of brain states are defined, and the correlation between states of brain regions in the ensemble can be calculated. For the numerical approximation of this correlations we used a monte carlo approach, in particular the metropolis hasting algorithm.
+
 ### Entropy and maximum similarity with the empirical correlations
+Once established the model its neccesary found the optimal parameters that allow us simulate the functional connectivity, for this reason we run multiple simulations with different temperatures and compare their entropys and similarity with the empirical correlations.
+
+![image](https://github.com/JuanHigueraC/Statistical-mechanics-and-network-science-for-the-simulation-of-injuries-in-the-human-brain/blob/71824983dc0aa48b80b9d9114c417e11c25605e5/Images/FC%20with%20differents%20temperatures.PNG)
+
+**Figure 6. Simulated functional connectivity with different temperatures.**
+
+![image](https://github.com/JuanHigueraC/Statistical-mechanics-and-network-science-for-the-simulation-of-injuries-in-the-human-brain/blob/71824983dc0aa48b80b9d9114c417e11c25605e5/Images/entropy%20and%20fit.PNG)
+
+**Figure 7. Entropy values for different temperatures. The vertical red line point to the value in which the similarity with empirical correlations are maximum.**
+
+As show, the maximum similarity between simulated and empirical correlation its presented in the maximum entropy regime, just at the edge of criticality.
+
 
 ## Results
 
