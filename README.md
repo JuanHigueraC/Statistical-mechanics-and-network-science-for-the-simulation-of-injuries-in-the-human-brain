@@ -42,7 +42,7 @@ With this nervious tracts a network representation was builded, then a threshold
 
 ![image](https://github.com/JuanHigueraC/Statistical-mechanics-and-network-science-for-the-simulation-of-injuries-in-the-human-brain/blob/2f05373eb73032d86fc85a2e2eb5797561e219e9/Images/SC.PNG)
 
-**Figure 3. Matrix representation of the anatomical network after the normalization and threshold procedure**
+**Figure 3. Matrix representation of the anatomical network after the normalization and threshold procedure. The colorbar are proportional to the normalized thresholded number of tracts between brain regions**
 
 ### Functional Edges
 
@@ -50,7 +50,7 @@ The functional information used was the mean BOLD signal within a brain region
 
 ![image](https://github.com/JuanHigueraC/Statistical-mechanics-and-network-science-for-the-simulation-of-injuries-in-the-human-brain/blob/2f05373eb73032d86fc85a2e2eb5797561e219e9/Images/bold%20parcel%20signa.PNG)
 
-**Figure 4. BOLD signal averaged within a brain region**
+**Figure 4. BOLD signal averaged within a brain region. Colorbar are proportional to the pearson correlation coefficient between brain regions**
 
 Functional edges are defined as pearson linear correlation coefficient between metabolic activity time series of the brain regions, the matrix representation of the resulting network is presented below
 
