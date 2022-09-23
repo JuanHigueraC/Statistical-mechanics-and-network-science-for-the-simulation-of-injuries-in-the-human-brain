@@ -88,11 +88,42 @@ Once established the model its neccesary found the optimal parameters that allow
 
 As show, the maximum similarity between simulated and empirical correlation its presented in the maximum entropy regime, just at the edge of criticality.
 
+## Selected regions to injurie
+Using network topological measures we quantified integration and segregation of the brain regions, and then we selected six brain regions to injurie, this regions was:
+
+**L Superior Frontal Gyrus** This region was the most important in degree and betweenness centrality.
+
+**L and R Superior Parietal Gyrus** This regions was the second and third regions with most betwennes centrality and are within the top five in the Degree rank.
+
+**L Lateral Remainder Occipital Lobe** This region was selected because have the most correlations with the rest of the network and are within the top three in Eigenvector Centrality rank.
+
+**L posterior temporal lobe** This region was selected because have the biggest value in Eigenvector Centrality and have hight values in other measures of centrality.
+
+So far, all regions are selected because ther integrator properties. The next region was selected by their segregator properties.
+
+**L Cuneus** This region was very interesting because have a hight Clustering and a hight Eigenvector Centrality, for this reason was selected.
+
 
 ## Results
 
 ### Simulated correlations 
 
+![image](https://github.com/JuanHigueraC/Statistical-mechanics-and-network-science-for-the-simulation-of-injuries-in-the-human-brain/blob/5e9f812ad425e84a212ffc13522cc873b617c639/Images/FC%20with%20lesions.PNG)
+
+**Figure 8. Simulated functional connectivity before and after the simulated local brain injuries.**
+
+In this statistical mechanical model of brain states, local brain injurie has a effect in the global activity, this can see in the change of correlations(color) in the functional connectivity matrix after the injurie. Note that not all injuries affected the global correlations in the same way.
+
 ### Conclusions
+
+**1.** Through the definition of links such as the number of nerve tracts, the tractography algorithm reproduces the structure of communities for the two hemispheres of the brain, and is also capable of predicting, with respect to topological measurements of the structural network, a large part of the most important nodes in functional activity at rest. This thus reflects part of the direct relationship between the structural environment with the count of tracts, and the dynamics of the brain described with linear correlations.
+
+**2.** It can be concluded that the Ising model applied to the structural matrix is ​​a valid approach that reflects the main characteristics that the brain at rest acts as a maximum entropy system. However, given the complexity of the study system, a greater computational capacity and an approach that can integrate a greater number of characteristics of brain connectivity, such as the size of the brain regions, as well as an approach from the point of view of action potentials with the local chemical environment, so that the modeling more accurately reflects brain behavior.
+
+**3.** Of the measures considered, it was found that geodesic intermediation in the structure is the one that best predicts which injury will have the most impact at the functional level, consistent with what is reported in the literature. However, what was observed with the functional graph for intermediation was that this measure fails to quantify aspects of brain functioning with certainty, because the intermediation measure has a nature immersed in the structural connectivity of the system, where the importance of the nodes based on their position, but for this case, in functional connectivity two regions can be correlated regardless of their distance in the cortex.
+
+**4.** Of the lesions considered, those in the parietal gyrus were determined to be the most impactful and those in the left cuneus as the least impactful. Injuries can affect the properties of the network in different ways, increasing or decreasing integration or segregation depending on the topological properties of the injured nodes.
+
+**5.** After injury, the entropy tended to increase, this is related to a decrease in the restrictions on the possible states of the system. However, this behavior should be further evaluated with more diverse and larger lesions. It is necessary to improve the sensitivity of the entropy measure if we want to distinguish more clearly between lesions, using, for example, another parcelling, more iterations or directly another way of calculating entropy.
 
 ## References
