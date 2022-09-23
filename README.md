@@ -127,3 +127,42 @@ In this statistical mechanical model of brain states, local brain injurie has a 
 **5.** After injury, the entropy tended to increase, this is related to a decrease in the restrictions on the possible states of the system. However, this behavior should be further evaluated with more diverse and larger lesions. It is necessary to improve the sensitivity of the entropy measure if we want to distinguish more clearly between lesions, using, for example, another parcelling, more iterations or directly another way of calculating entropy.
 
 ## References
+
+**[1]** Gustavo Deco, Mario Senden, and Viktor Jirsa. How anatomy shapes dynamics: a semianalytical study of the brain at rest by a simple spin model. Frontiers in computational
+neuroscience, 6:68, 2012.
+
+**[2]** Mario Senden, Gustavo Deco, Marcel A De Reus, Rainer Goebel, and Martijn P Van
+Den Heuvel. Rich club organization supports a diverse set of functional network
+configurations. Neuroimage, 96:174–182, 2014.
+
+**[3]** Gustavo Deco and Maurizio Corbetta. The dynamical balance of the brain at rest.
+The Neuroscientist, 17(1):107–123, 2011.
+
+**[4]** Joana Cabral, Etienne Hugues, Olaf Sporns, and Gustavo Deco. Role of local network
+oscillations in resting-state functional connectivity. Neuroimage, 57(1):130–139, 2011.
+
+**[5]** Olaf Sporns. Networks of the Brain. MIT press, 2010.
+
+**[6]** Hannelore Aerts, Wim Fias, Karen Caeyenberghs, and Daniele Marinazzo. Brain
+networks under attack: robustness properties and the impact of lesions. Brain,
+139(12):3063–3083, 2016.
+
+**[7]** TK Das, Pubuditha M Abeyasinghe, JS Crone, A Sosnowski, S Laureys, AM Owen,
+and A Soddu. Highlighting the structure-function relationship of the brain with the
+ising model and graph theory. BioMed research international, 2014, 2014.
+
+
+**[8]** Miguel A Munoz. Colloquium: Criticality and dynamical scaling in living systems.
+Reviews of Modern Physics, 90(3):031001, 2018.
+
+**[9]** oss M Lawrence, Eric W Bridgeford, Patrick E Myers, Ganesh C Arvapalli, Sandhya C Ramachandran, Derek A Pisner, Paige F Frank, Allison D Lemmer, Aki Nikolaidis, and Joshua T Vogelstein. Standardizing human brain parcellations. Scientific
+data, 8(1):1–9, 2021.
+
+**[10]** Karl J Friston. Functional and effective connectivity in neuroimaging: a synthesis.
+Human brain mapping, 2(1-2):56–78, 1994.
+
+
+**[11]** Angélica Gelover-Santiago. Simulación del modelo de Ising con el método de Monte
+Carlo. Facultad de Ciencias, UNAM, 2 edition, 2005
+
+
