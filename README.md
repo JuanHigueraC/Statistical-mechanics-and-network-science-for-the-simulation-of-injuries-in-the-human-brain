@@ -58,7 +58,7 @@ Functional edges are defined as pearson linear correlation coefficient between m
 
 **Figure 5. Matrix representation of the functional network**
 
-## Maximum entropy model of discrete network(brain) states (Generalized Ising Model)
+## Maximum entropy model of discrete brain states
 
 ### Model
 
