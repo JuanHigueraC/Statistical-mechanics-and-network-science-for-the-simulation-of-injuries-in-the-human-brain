@@ -24,14 +24,14 @@ Using structural, diffusion, and functional MRI data from the HCP dataset for he
 For the construction of brain networks its necessary define what entities are the nodes and what are the edges, this translating from the real brain to the mathematical network model is presented in this section.
 
 
-# Nodes
+### Nodes
 The human brain has on the order of $10^{11}$ neurons and $10^{11} \times 10^5$ connections, this has undoubted implications, the network of the real human brain at this moment is not simulable. For this and other reasons its fundamental build low dimensional representations of the brain, this representations are knowed as parcellations. In this work the parcellation choosed was the Hammersmith parcellation, present in the recopilation of parcellation present in https://github.com/neurodata/neuroparc.
 
 ![image](https://github.com/JuanHigueraC/Statistical-mechanics-and-network-science-for-the-simulation-of-injuries-in-the-human-brain/blob/083983ed2c104290ca1ca5c9cad892a3e4828559/Images/parcellation.PNG)
 
 **Figure 1. Parcellation of the humban brain**
 
-# Structural Edges
+### Structural Edges
 The structural edges of the anatomical network was defined as the number of nervious tracts, number infered from difusion magnetic resonance data and deterministic tractography algorithm*.
 
 ![image](https://github.com/JuanHigueraC/Statistical-mechanics-and-network-science-for-the-simulation-of-injuries-in-the-human-brain/blob/8272ed1223cd5a76251eeaf03fa0d49e19be387c/Images/tractografia.PNG)
@@ -40,20 +40,20 @@ The structural edges of the anatomical network was defined as the number of nerv
 
 This 
 
-# Functional Edges
+### Functional Edges
 
 Functional edges are defined as pearson linear correlation coefficient between metabolic activity time series of the brain regions.
 
 ## Maximum entropy models of the brain states (Generalized Ising Model)
 
-# Model
+### Model
 
-# Entropy and maximum similarity with the empirical correlations
+### Entropy and maximum similarity with the empirical correlations
 
 ## Results
 
-# Simulated correlations 
+### Simulated correlations 
 
-# Conclusions
+### Conclusions
 
 ## References
