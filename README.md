@@ -32,17 +32,28 @@ The human brain has on the order of $10^{11}$ neurons and $10^{11} \times 10^5$ 
 **Figure 1. Parcellation of the humban brain**
 
 ### Structural Edges
-The structural edges of the anatomical network was defined as the number of nervious tracts, number infered from difusion magnetic resonance data and deterministic tractography algorithm*.
+The structural edges of the anatomical network was defined as the number of nervious tracts, number infered from **difusion magnetic resonance** data and **deterministic tractography algorithm**.
 
 ![image](https://github.com/JuanHigueraC/Statistical-mechanics-and-network-science-for-the-simulation-of-injuries-in-the-human-brain/blob/8272ed1223cd5a76251eeaf03fa0d49e19be387c/Images/tractografia.PNG)
 
 **Figure 2. Nervious Tracts infered from difusion magnetic resonance data and deterministic tractography algorithm**
 
-This 
+With this nervious tracts a network representation was builded, then a threshold was applied and a normalization of the strength of the ties of a node, with respect to the total strength of its ties. After this procedure the matrix representation of the anatomical network resulted in:
+
+![image](https://github.com/JuanHigueraC/Statistical-mechanics-and-network-science-for-the-simulation-of-injuries-in-the-human-brain/blob/2f05373eb73032d86fc85a2e2eb5797561e219e9/Images/SC.PNG)
+**Figure 3. Matrix representation of the anatomical network after the normalization and threshold procedure**
 
 ### Functional Edges
 
-Functional edges are defined as pearson linear correlation coefficient between metabolic activity time series of the brain regions.
+The functional information used was the mean BOLD signal within a brain region
+
+![image](https://github.com/JuanHigueraC/Statistical-mechanics-and-network-science-for-the-simulation-of-injuries-in-the-human-brain/blob/2f05373eb73032d86fc85a2e2eb5797561e219e9/Images/bold%20parcel%20signa.PNG)
+**Figure 4. BOLD signal averaged within a brain region**
+
+Functional edges are defined as pearson linear correlation coefficient between metabolic activity time series of the brain regions, the matrix representation of the resulting network is presented below
+
+![image](https://github.com/JuanHigueraC/Statistical-mechanics-and-network-science-for-the-simulation-of-injuries-in-the-human-brain/blob/2f05373eb73032d86fc85a2e2eb5797561e219e9/Images/FC.PNG)
+**Figure 5. Matrix representation of the functional network**
 
 ## Maximum entropy model of discrete network(brain) states (Generalized Ising Model)
 
