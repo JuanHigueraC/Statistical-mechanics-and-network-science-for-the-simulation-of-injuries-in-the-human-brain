@@ -44,7 +44,7 @@ This
 
 Functional edges are defined as pearson linear correlation coefficient between metabolic activity time series of the brain regions.
 
-## Maximum entropy models of the brain states (Generalized Ising Model)
+## Maximum entropy model of discrete network(brain) states (Generalized Ising Model)
 
 ### Model
 
