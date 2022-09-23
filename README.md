@@ -128,7 +128,7 @@ In this statistical mechanical model of brain states, local brain injurie has a 
 
 ## References
 
-**[1]** Gustavo Deco, Mario Senden, and Viktor Jirsa. How anatomy shapes dynamics: a semianalytical study of the brain at rest by a simple spin model. Frontiers in computational
+**[1]** Gustavo Deco, Mario Senden, and Viktor Jirsa. How anatomy shapes dynamics: a semianalytical study of the brain at rest by a simple spin model. Frontiers in computational
 neuroscience, 6:68, 2012.
 
 **[2]** Mario Senden, Gustavo Deco, Marcel A De Reus, Rainer Goebel, and Martijn P Van
@@ -155,7 +155,7 @@ ising model and graph theory. BioMed research international, 2014, 2014.
 **[8]** Miguel A Munoz. Colloquium: Criticality and dynamical scaling in living systems.
 Reviews of Modern Physics, 90(3):031001, 2018.
 
-**[9]** oss M Lawrence, Eric W Bridgeford, Patrick E Myers, Ganesh C Arvapalli, Sandhya C Ramachandran, Derek A Pisner, Paige F Frank, Allison D Lemmer, Aki Nikolaidis, and Joshua T Vogelstein. Standardizing human brain parcellations. Scientific
+**[9]** oss M Lawrence, Eric W Bridgeford, Patrick E Myers, Ganesh C Arvapalli, Sandhya C Ramachandran, Derek A Pisner, Paige F Frank, Allison D Lemmer, Aki Nikolaidis, and Joshua T Vogelstein. Standardizing human brain parcellations. Scientific
 data, 8(1):1–9, 2021.
 
 **[10]** Karl J Friston. Functional and effective connectivity in neuroimaging: a synthesis.
