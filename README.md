@@ -59,8 +59,19 @@ Functional edges are defined as pearson linear correlation coefficient between m
 **Figure 5. Matrix representation of the functional network**
 
 ## Maximum entropy model of discrete brain states
+What we want to model are the correlations in metabolic activity brain, measured by fMRI. For this we consider that each brain region can only have two activation states, +1 and -1; +1 corresponding to when the brain region presents a value higher than its mean in the BOLD signal and -1 when it has a lower value, in this way we associate a state of net spin of the network to each state of brain activation. The interaction between brain regions is considered linear and such that seeks to align neighboring nodes. This is consistent with the observation in neuroscience that regions that are intensely connected to other tend to exhibit coactivation patterns.
 
 ### Model
+
+The interaction rule between nodes, and the associate energy for each activation pattern of the brain network are established by the next hamiltonian:
+
+$$H = \frac{1}{2}\Theta \sum_i S_i - \frac{1}{2}W \sum_{i,j}C_{i,j}S_iS_j$$
+
+where $S_i$ are the activation state of the node i, $\Theta$ the energy cost associate with the activation of the brain region, W the global coupling of the network and T the parameter that modulate the magnitude of thermal noise.
+
+Once established a hamiltonian, we use de Maximum Entropy Principle to infer probability of ocurrency of the brain states, this resulted in the next expression
+
+$$P_i = \frac{e^{-\frac{H_i}{T}}}{Z}$$
 
 ### Entropy and maximum similarity with the empirical correlations
 
